@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<base target="_blank"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>轻导航_简洁无广告的上网导航</title>
+	<meta name="description" content="单页导航--新一代安全上网导航，为用户提供门户、新闻、视频、游戏、小说、彩票等各种分类的优秀内容和网站入口，提供最简单便捷的上网导航服务。安全上网，从网址导航开始。" />
+	<meta name="keywords" content="网址导航,网址之家,网址大全,网址导航,安全网址,网址大全,上网导航,网址" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@4.4.6/dist/css/ionicons.min.css">
+	<style>
+	body{font-family: "Microsoft Yahei","微软雅黑","Helvetica" !important; font-weight:80%;}
+	#flow span {
+display: block;
+width: 200vw;
+height: 200vw;
+position: absolute;
+top: -180vw;
+left: -50vw;
+border-radius: 90vw;
+opacity: 0.6;
+}
+.flow-1 {
+background: #3281ff;
+-webkit-animation: rotating 20s linear infinite;
+-moz-animation: rotating 20s linear infinite;
+-ms-animation: rotating 20s linear infinite;
+-o-animation: rotating 20s linear infinite;
+animation: rotating 20s linear infinite;
+}
+.flow-2 {
+background: #f442ee;
+position: absolute;
+-webkit-animation: rotating 15s linear infinite;
+-moz-animation: rotating 15s linear infinite;
+-ms-animation: rotating 15s linear infinite;
+-o-animation: rotating 15s linear infinite;
+animation: rotating 15s linear infinite;
+}
+.flow-3 {
+background: #42eef4;
+position: absolute;
+-webkit-animation: rotating 7s linear infinite;
+-moz-animation: rotating 7s linear infinite;
+-ms-animation: rotating 7s linear infinite;
+-o-animation: rotating 7s linear infinite;
+animation: rotating 7s linear infinite;
+}
+@-webkit-keyframes rotating {
+from {
+-ms-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-webkit-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+}
+to {
+-ms-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+}
+@keyframes rotating {
+from {
+-ms-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-webkit-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+}
+to {
+-ms-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+}
+.rotating {
+-webkit-animation: rotating 2s linear infinite;
+-moz-animation: rotating 2s linear infinite;
+-ms-animation: rotating 2s linear infinite;
+-o-animation: rotating 2s linear infinite;
+animation: rotating 2s linear infinite;
+}
+</style>
+  </head>
+  <body>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="">
+      <img src="logo.png" width="112" height="28">
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="nav" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item">
+        导航首页
+      </a>
+
+      <a class="navbar-item">
+        茜茜社区
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          更多
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            每迅首页
+          </a>
+          <a class="navbar-item">
+            反代工具
+          </a>
+          <a class="navbar-item">
+            NeXT
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item">
+            孟坤博客
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary">
+            <strong>下载源码</strong>
+          </a>
+          <a class="button is-light">
+            投币
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+  <section class="section">
+    <div class="container">
+      <h1 class="title is-1">轻导航</h1>
+      <p class="subtitle">
+        简洁无广告的<strong>上网导航</strong>!
+      </p>
+	</div>
+  </section>
+  <section class="hero is-primary">
+  <div class="hero-body">
+    <div class="container">
+      <div class="field has-addons">
+  <div class="control has-icons-left">
+  <input class="input" type="text" placeholder="在这里搜索">
+  <span class="icon is-small is-left">
+  <i class="icon ion-logo-google"></i>
+  </span>
+</div>
+</div>
+    </div>
+  </div>
+</section>
+
+        <div id="flow" style="z-index:-100;position: relative;">
+            <span class="flow-1"></span>
+            <span class="flow-2"></span>
+            <span class="flow-3"></span>
+        </div>
+  </body>
+</html>
