@@ -1,5 +1,6 @@
 # 轻导航
 简洁无广告的导航
+
 ![logo](logo.png)
 >使用Bulma前端框架
 
@@ -7,5 +8,5 @@
 
 # Lightninig Navigation
 First step to internet surf
-![logo](logo.png)
+
 >Powered by Bulma
