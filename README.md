@@ -7,6 +7,6 @@
 占位编辑中。。。
 
 # Lightninig Navigation
-First step to internet surf
+First step to surf internet
 
 >Powered by Bulma
