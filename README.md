@@ -5,7 +5,9 @@
 >使用Bulma前端框架
 
 ### 演示
-https://365cent.github.io/lightning-nav/
+
+https://nav.365cent.com
+
 还没有完成QAQ
 
 占位编辑中。。。
