@@ -90,66 +90,29 @@ animation: rotating 2s linear infinite;
 </style>
   </head>
   <body>
-<nav class="navbar" role="navigation" aria-label="main navigation">
+
+<nav class="navbar" role="navigation" aria-label="dropdown navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="">
       <img src="logo.png" width="112" height="28">
     </a>
-
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="nav" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        导航首页
-      </a>
-
-      <a class="navbar-item">
-        茜茜社区
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          更多
-        </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            每迅首页
-          </a>
-          <a class="navbar-item">
-            反代工具
-          </a>
-          <a class="navbar-item">
-            NeXT
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            孟坤博客
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="navbar-end">
       <div class="navbar-item">
+      <a class="navbar-item">
+        主页
+      </a>
         <div class="buttons">
           <a class="button is-primary">
-            <strong>下载源码</strong>
+            下载源码
           </a>
           <a class="button is-light">
             投币
           </a>
         </div>
       </div>
-    </div>
   </div>
+  
 </nav>
+
   <section class="hero">
 	  <div class="hero-body">
         <div class="container">
@@ -172,7 +135,7 @@ animation: rotating 2s linear infinite;
   </div>
   <div class="control">
     <a class="button is-primary is-medium">
-      <i class="icon ion-md-search"></i>
+      <i class="icon ion-ios-search"></i>
     </a>
   </div>
 </div>
@@ -184,36 +147,109 @@ animation: rotating 2s linear infinite;
   
 
 
-<div class="tabs is-fullwidth">
-<div class="container">
-  <ul>
-    <li class="is-active">
-      <a>
-        <span class="icon"><i class="fas fa-angle-left" aria-hidden="true"></i></span>
-        <span>Left</span>
-      </a>
-    </li>
-    <li>
-      <a>
-        <span class="icon"><i class="fas fa-angle-up" aria-hidden="true"></i></span>
-        <span class="has-text-white">Up</span>
-      </a>
-    </li>
-    <li>
-      <a>
-        <span class="has-text-white">Right</span>
-        <span class="icon"><i class="fas fa-angle-right" aria-hidden="true"></i></span>
-      </a>
-    </li>
-  </ul>
-  </div>
-</div>
-
-
         <div id="flow" style="z-index:-100;position: relative;">
             <span class="flow-1"></span>
             <span class="flow-2"></span>
             <span class="flow-3"></span>
         </div>
+
+<div class="tabs is-fullwidth">
+<div class="container">
+  <ul>
+    <li class="is-active">
+      <a>
+        <span class="icon"><i class="icon ion-ios-home"></i></span>
+        <span>主页</span>
+      </a>
+    </li>
+    <li>
+      <a>
+        <span class="icon has-text-white"><i class="icon ion-ios-planet"></i></span>
+        <span class="has-text-white">新闻</span>
+      </a>
+    </li>
+    <li>
+      <a>
+        <span class="icon has-text-white"><i class="icon ion-ios-play-circle"></i></span>
+        <span class="has-text-white">电视剧</span>
+      </a>
+    </li>
+    <li>
+      <a>
+        <span class="icon has-text-white"><i class="icon ion-logo-game-controller-b"></i></span>
+        <span class="has-text-white">小游戏</span>
+      </a>
+    </li>
+    <li>
+      <a>
+        <span class="icon has-text-white"><i class="icon ion-ios-book"></i></span>
+        <span class="has-text-white">阅读</span>
+      </a>
+    </li>
+    <li>
+      <a>
+        <span class="icon has-text-white"><i class="icon ion-ios-map"></i></span>
+        <span class="has-text-white">旅游</span>
+      </a>
+    </li>
+    <li>
+      <a>
+        <span class="icon has-text-white"><i class="icon ion-ios-cart"></i></span>
+        <span class="has-text-white">购物</span>
+      </a>
+    </li>
+    <li>
+      <a>
+        <span class="icon has-text-white"><i class="icon ion-ios-send"></i></span>
+        <span class="has-text-white">申请收录</span>
+      </a>
+    </li>
+  </ul>
+  </div>
+</div>
+<div class="container">
+<div class="tile is-ancestor">
+  <div class="tile is-4 is-parent">
+    <div class="tile is-child box">
+      <div class="columns is-mobile">
+  <div class="column has-text-primary">
+    <ul>
+									<li class="yl"><i class="icon ion-md-happy"></i><a href="https://www.toutiao.com">新闻</a><span class="split">•</span><a href="https://www.douyu.com">直播</a></li>
+									<li class="tg"><i class="icon ion-md-appstore"></i><a href="https://m.tb.cn/h.eaGZaXs">今日团购</a></li>
+									<li class="gw"><i class="icon ion-md-cart"></i><a href="https://www.taobao.com">网上购物</a></li>		
+									<li class="yx"><i class="icon ion-logo-game-controller-b"></i><a href="http://www.4399.com">游戏</a><span class="split">•</span><a href="https://store.steampowered.com">Steam</a></li>
+									<li class="cx"><i class="icon ion-md-search"></i><a href="http://tool.mkblog.cn">查询</a><span class="split">•</span><a href="http://www.kuaidi100.com">快递</a></li>
+									<li class="et"><i class="icon ion-md-color-palette"></i><a href="http://www.4399.com">儿童</a><span class="split">•</span><a href="https://www.meishij.net">美食</a></li>
+									<li class="mn"><i class="icon ion-md-female"></i><a href="http://www.umei.cc/tags/meinvyouwu.htm">美女</a><span class="split">•</span><a href="http://lab.mkblog.cn/wallpaper/">图片</a></li>
+								</ul>
+  </div>
+  <div class="column has-text-primary">
+    <ul>
+                                    <li class="dy"><i class="icon ion-md-play-circle"></i><a href="http://kan.2345.com/?kmengkunsoftware">电影</a><span class="split">•</span><a href="http://t.cn/E64tnD2">电视剧</a></li>				
+									<li class="cp"><i class="icon ion-md-cash"></i><a href="https://www.baidu.com/s?wd=彩票&amp;ie=UTF-8">彩票</a><span class="split">•</span><a href="https://www.baidu.com/s?wd=双色球&amp;ie=UTF-8">双色球</a></li>
+                                    <li class="bz"><i class="icon ion-md-book"></i><a href="http://www.zxcs.me/">小说</a><span class="split">•</span><a href="http://www.4399.com">小游戏</a></li>
+									<li class="yy"><i class="icon ion-md-musical-note"></i><a href="https://music.163.com">音乐</a><span class="split">•</span><a href="https://www.bilibili.com">动漫</a></li>
+									<li class="ly"><i class="icon ion-md-airplane"></i><a href="https://www.ctrip.com">机票</a><span class="split">•</span><a href="https://www.12306.cn">火车票</a></li>
+									<li class="qc"><i class="icon ion-md-car"></i><a href="https://www.autohome.com.cn/">汽车</a><span class="split">•</span><a href="https://www.autohome.com.cn/">二手车</a></li>
+									<li class="jy"><i class="icon ion-md-briefcase"></i><a href="http://www.runoob.com">教育</a><span class="split">•</span><a href="http://www.neea.edu.cn">考试</a></li>
+								</ul>
+  </div>
+</div>
+	  </div>
+  </div>
+  <div class="tile is-parent">
+    <div class="tile is-child box">
+	  <div class="columns is-mobile">
+  <div class="column">1</div>
+  <div class="column">2</div>
+  <div class="column">3</div>
+  <div class="column">4</div>
+  <div class="column">3</div>
+  <div class="column">4</div>
+</div>
+    </div>
+  </div>
+</div>
+</div>
   </body>
 </html>
