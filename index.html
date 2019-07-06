@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.4/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@4.4.6/dist/css/ionicons.min.css">
-    <style>body{font-family: 'Microsoft JhengHei', 'Microsoft YaHei', "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Calibri", "SimHei", sans-serif;line-height:180%;} #flow span { display: block; width: 200vw; height: 200vw; position: absolute; top: -180vw; left: -50vw; border-radius: 90vw; opacity: 0.6; } .flow-1 { background: #3281ff; -webkit-animation: rotating 20s linear infinite; -moz-animation: rotating 20s linear infinite; -ms-animation: rotating 20s linear infinite; -o-animation: rotating 20s linear infinite; animation: rotating 20s linear infinite; } .flow-2 { background: #f442ee; position: absolute; -webkit-animation: rotating 15s linear infinite; -moz-animation: rotating 15s linear infinite; -ms-animation: rotating 15s linear infinite; -o-animation: rotating 15s linear infinite; animation: rotating 15s linear infinite; } .flow-3 { background: #42eef4; position: absolute; -webkit-animation: rotating 7s linear infinite; -moz-animation: rotating 7s linear infinite; -ms-animation: rotating 7s linear infinite; -o-animation: rotating 7s linear infinite; animation: rotating 7s linear infinite; } @-webkit-keyframes rotating { from { -ms-transform: rotate(0deg); -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); } to { -ms-transform: rotate(360deg); -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg); } } @keyframes rotating { from { -ms-transform: rotate(0deg); -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); } to { -ms-transform: rotate(360deg); -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg); } } .rotating { -webkit-animation: rotating 2s linear infinite; -moz-animation: rotating 2s linear infinite; -ms-animation: rotating 2s linear infinite; -o-animation: rotating 2s linear infinite; animation: rotating 2s linear infinite; } .table td, .table th{ border:none; } th,td{ font-weight:normal; padding: 0 0!important; } #top-left{ line-height: 200%; }</style></head>
+    <style>body{font-family: 'Microsoft JhengHei', 'Microsoft YaHei', "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Calibri", "SimHei", sans-serif;list-style:none;} #top-left, #main, #bottom{line-height: 200%;} #top-right{line-height: 180%;} #flow span { display: block; width: 200vw; height: 200vw; position: absolute; top: -180vw; left: -50vw; border-radius: 90vw; opacity: 0.6; } .flow-1 { background: #3281ff; -webkit-animation: rotating 20s linear infinite; -moz-animation: rotating 20s linear infinite; -ms-animation: rotating 20s linear infinite; -o-animation: rotating 20s linear infinite; animation: rotating 20s linear infinite; } .flow-2 { background: #f442ee; position: absolute; -webkit-animation: rotating 15s linear infinite; -moz-animation: rotating 15s linear infinite; -ms-animation: rotating 15s linear infinite; -o-animation: rotating 15s linear infinite; animation: rotating 15s linear infinite; } .flow-3 { background: #42eef4; position: absolute; -webkit-animation: rotating 7s linear infinite; -moz-animation: rotating 7s linear infinite; -ms-animation: rotating 7s linear infinite; -o-animation: rotating 7s linear infinite; animation: rotating 7s linear infinite; } @-webkit-keyframes rotating { from { -ms-transform: rotate(0deg); -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); } to { -ms-transform: rotate(360deg); -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg); } } @keyframes rotating { from { -ms-transform: rotate(0deg); -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); } to { -ms-transform: rotate(360deg); -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg); } } .rotating { -webkit-animation: rotating 2s linear infinite; -moz-animation: rotating 2s linear infinite; -ms-animation: rotating 2s linear infinite; -o-animation: rotating 2s linear infinite; animation: rotating 2s linear infinite; } .table td, .table th{ border:none; } th,td{ font-weight:normal; padding: 0 0!important; }</style></head>
   
   <body>
     <nav class="navbar" role="navigation" aria-label="dropdown navigation">
@@ -22,7 +22,7 @@
           <a class="navbar-item" target="_self" href="">主页</a>
           <div class="buttons">
             <a class="button is-primary" href="https://github.com/365cent/lightning-nav/archive/master.zip">下载源码</a>
-            <a class="button is-light" href="https://proxy.qnid.cc/sponsor">投币</a></div>
+            <a class="button is-light" href="https://ru.qnid.cc/sponsor">投币</a></div>
         </div>
       </div>
     </nav>
@@ -33,7 +33,8 @@
             <div class="column is-two-thirds">
               <p class="title has-text-white">轻导航</p>
               <p class="subtitle has-text-white">简洁无广告的
-                <strong class="has-text-white">上网导航</strong>!</p></div>
+                <strong class="has-text-white">上网导航!</strong></p>
+            </div>
             <div class="column">
               <form method="get" action="https://kilo.dev/labs/post/g.php">
                 <div class="field has-addons">
@@ -204,9 +205,9 @@
             </div>
           </div>
         </div>
-        <div class="tile is-parent">
+        <div class="tile is-parent" id="top-right">
           <div class="tile is-child box">
-            <div class="has-text-primary" style="">
+            <div class="has-text-primary">
               <ul>
                 <div class="columns">
                   <div class="column">
@@ -358,42 +359,78 @@
           <div class="tile is-child box">
             <div class="tabs">
               <ul>
-                <li>
-                  <a href="http://www.4399.com">游戏</a></li>
-                <li>
-                  <a href="http://www.zxcs.me/">小说</a></li>
-                <li>
-                  <a href="http://t.cn/E64tnD2">电影</a></li>
-                <li>
-                  <a href="http://t.cn/E64tnD2">电视剧</a></li>
-                <li>
-                  <a href="http://music.so.com">音乐</a></li>
-                <li>
-                  <a href="https://www.taobao.com">购物</a></li>
-                <li>
-                  <a href="http://tool.mkblog.cn/tao/index.php?r=l&amp;kw=休闲零食&amp;u=680049">美食团</a></li>
-                <li>
-                  <a href="http://tool.mkblog.cn/tao/index.php?r=l&amp;cid=1&amp;u=680049">逛女装</a></li>
-                <li>
-                  <a href="https://m.tb.cn/h.eaGZaXs">淘宝皇冠店</a></li>
-              </ul>
+                <a href="http://www.4399.com">游戏</a>
+                <a href="http://www.zxcs.me/">小说</a>
+                <a href="http://t.cn/E64tnD2">电影</a>
+                <a href="http://t.cn/E64tnD2">电视剧</a>
+                <a href="http://music.so.com">音乐</a>
+                <a href="https://www.taobao.com">购物</a>
+                <a href="http://tool.mkblog.cn/tao/index.php?r=l&amp;kw=休闲零食&amp;u=680049">美食团</a>
+                <a href="http://tool.mkblog.cn/tao/index.php?r=l&amp;cid=1&amp;u=680049">逛女装</a>
+                <a href="https://m.tb.cn/h.eaGZaXs">淘宝皇冠店</a></ul>
             </div>
-            <div class="columns">
+            <div class="columns" id="main">
               <div class="column">
-                <!--影视 part 1-->
+                <!--main 1-1-2-->
                 <div class="columns is-mobile">
                   <div class="column">
-                    <a class="has-text-primary" href="http://t.cn/E64tnD2">
-                      <strong>影视</strong></a>
+                    <li>
+                      <a class="has-text-primary" href="http://t.cn/E64tnD2">
+                        <strong>影视</strong></a>
+                    </li>
+                    <li>
+                      <a class="has-text-primary" href="https://www.bilibili.com/">
+                        <strong>视频</strong></a>
+                    </li>
+                    <li>
+                      <a class="has-text-primary" href="http://xiaoshuo.360.cn/">
+                        <strong>小说</strong></a>
+                    </li>
+                    <li>
+                      <a class="has-text-primary" href="http://tool.mkblog.cn/media/#baidu">
+                        <strong>音乐</strong></a>
+                    </li>
+                    <li>
+                      <a class="has-text-primary" href="http://www.4399.com/">
+                        <strong>游戏</strong></a>
+                    </li>
+                    <li>
+                      <a class="has-text-primary" href="https://www.taobao.com/">
+                        <strong>购物</strong></a>
+                    </li>
                   </div>
                   <div class="column">
-                    <a href="http://kan.2345.com/?kmengkunsoftware">电 影</a></div>
+                    <li>
+                      <a href="http://kan.2345.com/?kmengkunsoftware">电 影</a></li>
+                    <li>
+                      <a href="https://www.bilibili.com/">哔哩哔哩动画</a></li>
+                    <li>
+                      <a href="http://www.qidian.com">起点中文网</a></li>
+                    <li>
+                      <a href="https://music.163.com">网易云音乐</a></li>
+                    <li>
+                      <a href="http://www.4399.com/">4399小游戏</a></li>
+                    <li>
+                      <a href="http://www.jd.com">京东商城</a></li>
+                  </div>
                   <div class="column">
-                    <a href="http://kan.2345.com/?kmengkunsoftware">电视剧</a></div>
+                    <li>
+                      <a href="http://kan.2345.com/?kmengkunsoftware">电视剧</a></li>
+                    <li>
+                      <a href="http://www.youku.com/">优 酷</a></li>
+                    <li>
+                      <a href="http://www.zongheng.com/">纵横中文网</a></li>
+                    <li>
+                      <a href="http://music.qq.com">QQ音乐</a></li>
+                    <li>
+                      <a href="http://www.7k7k.com/">7K7K小游戏</a></li>
+                    <li>
+                      <a href="http://www.suning.com">苏宁易购</a></li>
+                  </div>
                 </div>
               </div>
               <div class="column">
-                <!--影视 part 2-->
+                <!--main 1-3-4-->
                 <div class="columns is-mobile">
                   <div class="column">
                     <a href="http://kan.2345.com/?kmengkunsoftware">综 艺</a></div>
@@ -404,19 +441,68 @@
                 </div>
               </div>
               <div class="column">
-                <!--影视 part 3-->
+                <!--main 1-4-5-->
                 <div class="columns is-mobile">
-                  <div class="column">
-                    <a href="https://www.bilibili.com/">动 漫</a></div>
                   <div class="column">
                     <a href="http://tool.mkblog.cn/media/">电视直播</a></div>
                   <div class="column">
                     <a href="https://www.bilibili.com/documentary/">纪录片</a></div>
+                  <div class="column">
+                    <a href="http://t.cn/E64tnD2">更多</a></div>
                 </div>
               </div>
             </div>
           </div>
           <div class="tile is-child box">
+            <div class="tabs">
+              <ul>
+                <a href="http://sh.qihoo.com/">新闻</a>
+                <a href="http://hao.360.cn/junshiguofang.html">军事</a>
+                <a href="http://hao.360.cn/tiyuyundong.html">体育</a>
+                <a href="http://hao.360.cn/nba.html">NBA</a>
+                <a href="http://hao.360.cn/gupiaojijin.html">财经</a>
+                <a href="http://www.4399.com">网游</a>
+                <a href="http://www.4399.com">小游戏</a>
+                <a href="http://qipai.360.cn/">棋牌</a>
+                <a href="http://cp.360.cn/ssq/">双色球</a>
+                <a href=" http://edu.360.cn/yingyu?tn=aside">英语</a></ul>
+            </div>
+            <div class="columns" id="main"></div>
+          </div>
+          <div class="tile is-child box">
+            <div class="tabs">
+              <ul>
+                <a href="https://www.autohome.com.cn/">新车</a>
+                <a href="https://www.autohome.com.cn/">二手车</a>
+                <a href="http://www.hao123.com/bank">银行</a>
+                <a href="https://m.tb.cn/h.eaQWT7o">商城</a>
+                <a href="https://m.tb.cn/h.eaQWT7o">团购</a>
+                <a href="https://m.tb.cn/h.eaQWT7o">皇冠店</a>
+                <a href="https://m.tb.cn/h.eaQWT7o">淘宝特卖</a>
+                <a href="https://m.tb.cn/h.eaQWT7o">今日特价</a></ul>
+            </div>
+            <div class="columns" id="main"></div>
+          </div>
+          <div class="tile is-child box">
+            <div class="tabs">
+              <ul>
+                <a href="http://hao.360.cn/zufang.html">租房</a>
+                <a href="http://hao.360.cn/ershoufang.html">二手房</a>
+                <a href="http://urlqh.cn/mhdjL">免息借钱</a>
+                <a href="http://hao.360.cn/nvxing.html">女性</a>
+                <a href="http://hao.360.cn/meiti.html">美体</a>
+                <a href="http://hao.360.cn/fashion.html">时尚</a>
+                <a href="http://hao.360.cn/rencaizhaopin.html">招聘</a>
+                <a href="http://hao.360.cn/diannaowangluo.html">电脑</a>
+                <a href="http://baoku.360.cn">软件</a>
+                <a href="http://hao.360.cn/shoujitongxin.html">手机</a>
+                <a href="http://hao.360.cn/baoxian.html">保险</a>
+                <a href="http://go.360.cn/holiday?src=cool">度假</a>
+                <a href="http://go.360.cn/hotel?src=cool">酒店</a></ul>
+            </div>
+            <div class="columns" id="main"></div>
+          </div>
+          <div class="tile is-child box" id="bottom">
             <div class="columns">
               <div class="column">
                 <i class="icon ion-ios-hammer"></i>实用工具
@@ -558,7 +644,7 @@
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
-          <strong>Lightning Navigation</strong>by
+          <strong>Lightning Nav</strong>by
           <a href="https://www.365cent.com" target="_blank">M</a>. The website content is licensed
           <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
           <br/>Copyright © 2010 - 2019
