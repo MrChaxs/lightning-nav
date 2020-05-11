@@ -8,15 +8,18 @@
 >演示
 https://nav.365cent.com
 
->部署
+>使用Vercel部署
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/365cent/lightning-nav)
 
-还没有完成QwQ
-
-占位编辑中。。。
 
 # Lightninig Navigation
 First step to surf internet
 
 >Powered by Bulma
 >Holding on Vercel (Formerly Zeit.co)
+
+>Demo
+https://nav.365cent.com
+
+>Deply now with Vercel
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/365cent/lightning-nav)
